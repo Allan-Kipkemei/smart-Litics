@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-*******" crossorigin="anonymous" />
+
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div id="signup-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Sign Up</h2>
+            <form id="signup-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit">Sign Up</button>
+            </form>
+
+            <div class="social-login">
+                <p>Or sign up with:</p><br>
+                <div class="social-buttons">
+                    <button id="google-btn"><i class="fab fa-google"></i> Google</button><br>
+                    <button id="facebook-btn"><i class="fab fa-facebook"></i> Facebook</button><br>
+                    <button id="gmail-btn"><i class="far fa-envelope"></i> Gmail</button><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+
+</body>
+
+</html>
+
