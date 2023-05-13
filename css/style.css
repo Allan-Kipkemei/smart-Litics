@@ -10,8 +10,6 @@
     font-family: 'Fira Sans', sans-serif;
 }
 
-
-
 :root{
     --min-color: #fff;
     --sc-color: #3ec1d5;
@@ -381,40 +379,6 @@ header .fa-bars{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* media query  */
 
 @media(max-width:850px){
 
